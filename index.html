@@ -1,13 +1,51 @@
-<html>
-  <head>
-  <title>Web Cristian</title>
-  </head>
-<body>
-<h1>Título 1</h1> <br>
-<img alt="Perrito" src="perro.jpg" width="200" height="200"> 
+<!DOCTYPE html>
+<html >
+<head>
+	<title>Web de Crisitan</title>
+</head>
+<!--<h1-6> es para añadir títulos o headings. <p> es para añadir párrafos -->
+	<h1>Mi primer heading</h1>
+	<h2>Mi segundo heading</h2>
+	<h3>Mi tercer heading</h3>
+	<h4>Mi cuarto heading</h4>
+	<h5>Mi quinto heading</h5>
+	<h6>Prueba con h6</h6>
+	<p>Chanchito feliz está muy feliz</p>
+	<p>Chanchito triste está muy triste</p>
+	<hr>
+	<h2> Chanchito felipe </h2>
+	<p>Más texto lo vamos a hacer <span style="color:pink">	un 	poco más largo</span> para mostrar <br> una etiqueta 	nueva</p>
+<!--Esta etiqueta sirve para añadir comentarios al código -->
 
-</body>
 
+<!-- Etiqueta de hipervínculos -->
+<!-- target="_blank" se abre en una nueva pestaña y no en la misma -->
+<a target="_blank" href="https://www.google.es">Ir a google</a> 
+<br><br>
 
+<!-- Etiqueta de imagenes --> <!-- height para largo, width para ancho -->
 
+<img src="pug.jpg" height="200" width="250"/>
+<br><br>
+
+<!-- Etiqueta de formularios -->
+<!-- Label texto que queremos que sea introducido en el input -->
+<!-- for para saber a que input se refiere el label -->
+<!-- id para ponerle un identificador al input -->
+<!-- darle name al nombre siempre para servidores(+pro) -->
+<!-- type para cambiar el input(boton, texto...) -->
+<!-- placeholder para dentro del input texto -->
+<form>
+	<label for="nombre"> Nombre </label>
+	<input type="text" id="nombre" name="nombre" 		placeholder="Ej:Cristian"/>
+	<br>
+	<label for="apellido">Apellido</label>
+	<input id="apellido" type="text" placeholder="Ej:Sánchez" 	name="Apellido"/>
+	<br>
+	<label for="comentario">Comentario crítico</label>
+	<textarea rows="5" cols="50" id="comentario" name="comentario">Ingrese un comentario acerca de la página web </textarea>
+
+	<input type="submit" />
+</form>
+a
 </html>
